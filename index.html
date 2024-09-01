@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <title>Myntra Clone-HTML,CSS,JScript</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="logo_container">
+      <a href="#"><img class="logo-image" src="./myntra_Images/myntra_logo.webp" alt="logo here"></a>
+    </div>
+    <!-- navbar  -->
+    <div class="navbar">
+      <a href="#">Women</a>
+      <a href="#">Men</a>
+      <a href="#">Kids</a>
+      <a href="#">Home & living</a>
+      <a href="#">Beauty</a>
+      <a href="#"> Studios <sup>New</sup></a>
+
+    </div>
+    <!-- Navbar ended here -->
+    <!-- searcbar started here  -->
+    <div class="search_bar">
+      <span class="material-symbols-outlined search_icon">search</span>
+      <input placeholder="search for product and more brands" class="search_input">
+    </div>
+
+    <!-- search bar ended here  -->
+    <!-- Action bar started -->
+    <div class="action_bar">
+      <!-- action_container started -->
+
+
+      <!-- 1 st action -->
+      <div class="action_container">
+        <span class="material-symbols-outlined action_icon"> person</span>
+        <span class="action_name">profile</span>
+      </div>
+
+      <!-- 2nd action -->
+      <div class="action_container">
+        <span class="material-symbols-outlined">favorite</span>
+        <span>Wishlist</span>
+      </div>
+
+
+      <!-- 3rd action -->
+      <button class="bag_btn" onclick="openBag()">
+        <div class="action_container">
+          <sup style="color: #ff3f6c; " class="bag_item_count">0</sup>
+          <span class="material-symbols-outlined">shopping_cart </span>
+          <span>Cart </span>
+
+        </div>
+      </button>
+    </div><!-- ending of action_bar -->
+
+
+  </header>
+  <main>
+    <div class="items_container">
+    </div>
+  </main>
+  <script src="data/items.js"></script>
+  <script src="index.js"></script>
+  <!-- footer part is started here -->
+  <footer>
+
+    <div class="footer_container">
+
+      <div class="footer_column">
+        <h5>ONLINE SHOPPING</h5>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Kids</a>
+        <a href="#">Home & living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Gift Card</a>
+        <a href="#">Myntra Insider</a>
+
+        <h5>USEFUL LINKS</h5>
+        <a href="#">Blog</a>
+        <a href="#">Career</a>
+        <a href="#">Site Map</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Whitehat</a>
+        <a href="#">Clearship</a>
+      </div>
+
+      <div class="footer_column">
+        <h5>CUSTOMER POLICIES</h5>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+        <a href="#">T&Q</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">rack the Order</a>
+        <a href="#">Shipping</a>
+        <a href="#">Cancellation</a>
+        <a href="#">Return</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Grievance Officer</a>
+
+
+      </div>
+      <div class="footer_column">
+        <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Kids</a>
+        <a href="#">Home & living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Gift Card</a>
+        <a href="#">Myntra Insider</a>
+
+
+
+      </div>
+      <div class="footer_column">
+        <h5> WILL FIND HERE</h5>
+        <a href="#">Smart men’s clothing</a>
+        <a href="#">trendy women's clothing</a>
+        <a href="#">Fashionable footwear</a>
+        <a href="#">Stylish accessories </a>
+        <a href="#">Beauty begins here </a>
+        <a href="#">Fun and frolic </a>
+        <a href="#">Myntra Insider</a>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="footer_2">
+
+      <div class="popular">
+        <span>
+          <h5>POPULAR SEARCHES
+            <hr>
+          </h5>
+        </span>
+        <a href="#">Makeup |</a><a href="#"> Dresses For Girls|</a><a href="#"> T-Shirts | </a><a href="#"> Sandals|
+        </a><a href="#"></a><a href="#">Headphones |</a><a href="#"> Babydolls | </a><a href=""> Blazers For Men |</a><a
+          href="">Handbags | </a>
+        <a href=""> Ladies
+          Watches |</a> <a href="">Sport Shoes |</a> <a href=""> Puma Shoes|</a> <a href="">Titan Watches</a> <a
+          href=""> Designer Blouse</a> <a href="">Cricket Shoes</a><a href=""> Reebok Shoes |</a> <a href="">Woodland
+          Shoes</a> <a href="">Designers Sarees</a><a href="">Jewellery </a> <a href="">Photo Frames</a> <a
+          href="">Smart Watches|</a> <a href="">Adidas|</a><a href=""></a> <a href=""> Nike|</a>
+        <a href="">Puma|</a> <a href="">Titan|</a> <a href="">Goggles|</a><a href="">Myntra Fashion Show |</a> <a
+          href="">
+          Lehenga |</a> <a href="">Lipstick|</a> <a href=""> Eye Makeup|</a> <a href="">Rings|</a><a href="">
+          Kurtis|</a> <a href=""> Watches|</a> <a href="">Earrings |</a> <a href="">Tops |</a> <a href="">Wallets
+          |</a><a href=""> Boxers
+          | </a> <a href="">Bags|</a> <a href=""> Punjabi Suits </a>
+
+      </div>
+
+
+
+      <div class="lastlines">
+
+        <div class="contact">In case of any concern,<a href="#"
+            style="font-weight: bold; color: rgb(105, 105, 236); text-decoration: none;">Contact Us</a>
+        </div>
+        <div class="copyright">© 2024 www.myntra.com. All rights reserved.</div>
+        <div class="cent">A Flipkart company</div>
+
+
+      </div>
+      <hr>
+
+
+      <div class="footer_address">
+        <div class="inner_address">
+          <h5>REGISTERED OFFICE ADDRESS</h5>
+          <div class="address">Buildings Alyssa,<span>
+              Begonia and Clover situated in Embassy Tech Village,</span>
+            <span> Outer Ring Road,</span>
+            <span>Devarabeesanahalli Village,</span>
+            <span>Varthur Hobli,</span>
+            <span>Bengaluru – 560103, India</span>
+          </div>
+
+        </div>
+
+        <div class="inner_address2">
+          <span> CIN: U72300KA2007PTC041799</span>
+          <div class="2">Telephone: <span style="color: rgb(105, 105, 236);font-weight: bold;">+91-80-61561999</span>
+          </div>
+
+
+
+        </div>
+      </div>
+      <hr>
+
+
+
+    </div>
+
+  </footer>
+  <!-- footer part is ended here -->
+
+</body>
+
+</html>
